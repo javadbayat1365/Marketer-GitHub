@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Marketer.DataLayer\Marketer.DataLayer.csproj" />
+    <ProjectReference Include="..\Marketer.DomainClasses\Marketer.DomainClasses.csproj" />
+    <ProjectReference Include="..\Marketer.Utilities\Marketer.Utilities.csproj" />
+    <ProjectReference Include="..\Marketer.ViewModels\Marketer.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
+</Project>

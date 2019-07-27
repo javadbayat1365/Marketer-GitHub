@@ -15,8 +15,6 @@ using Marketer.DataLayer.Repositories;
 using Marketer.Services.Product;
 using Marketer.DataLayer.Context;
 
-
-//this is test
 namespace Marketer.App
 {
     public class Startup
